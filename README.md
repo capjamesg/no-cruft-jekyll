@@ -4,9 +4,7 @@ No Cruft Jekyll is a minimal Jekyll theme based on my personal blog. No Cruft Je
 
 ## Screenshots
 
-Homepage             |  Blog Feed
-:-------------------------:|:-------------------------:
-![](https://github.com/jamesgoca/no-cruft-jekyll/blob/master/homepage.png)  |  ![](https://github.com/jamesgoca/no-cruft-jekyll/blob/master/blogfeed.png)
+![](https://github.com/jamesgoca/no-cruft-jekyll/blob/master/homepage.png)
 
 ## Installation
 
