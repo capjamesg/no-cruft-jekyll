@@ -1,1 +1,22 @@
-{{ content }}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - Your Name</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+
+    {% if page.summary %}
+    <meta name="description" content="{{ page.summary | escape }}">
+    {% endif %}
+
+    <link rel="icon" href="data:,">
+  </head>
+  <body>
+    <a href="#main">Skip to main content</a>
+  	{% include navigation.html %}
+    <main id="main" role="main">
+  	 {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
