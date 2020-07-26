@@ -1,11 +1,12 @@
-# no-cruft-jekyll
+# No Cruft Jekyll
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+No Cruft Jekyll is a minimal Jekyll theme based on my personal blog. No Cruft Jekyll uses very little CSS and no JavaScript. This template is written in semantic HTML.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Screenshots
 
-TODO: Delete this and the text above, and describe your gem
-
+Homepage             |  Blog Feed
+:-------------------------:|:-------------------------:
+![](https://github.com/jamesgoca/no-cruft-jekyll/blob/master/homepage.png)  |  ![](https://github.com/jamesgoca/no-cruft-jekyll/blob/master/blogfeed.png)
 
 ## Installation
 
@@ -29,13 +30,17 @@ Or install it yourself as:
 
     $ gem install no-cruft-jekyll
 
-## Usage
+## Features
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+- Written using semantic HTML
+- CSS file fits in 4Kb
+- Offers an RSS feed
+- Minimal design
+- A blog feed page
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jamesgoca/no-cruft-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
