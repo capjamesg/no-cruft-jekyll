@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+summary: My latest blog posts.
+permalink: /blog
+---
+<h1>Latest Posts</h1>
+<p>View all my recent blog posts below.</p>
+
+<ul class="blog">
+  {% for post in site.posts limit:10 %}
+    <li>
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      Posted on: {{ post.date | date_to_long_string }}
+      {{ post.excerpt }}
+      <a href="{{ post.url }}" title="{{ post.title }}">Continue reading</a>
+    </li>
+  {% endfor %}
+</ul>
