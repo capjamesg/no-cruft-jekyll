@@ -36,6 +36,16 @@ Or install it yourself as:
 - Minimal design
 - A blog feed page
 
+## Setup
+
+To create a new page, create a new file in the root directory of your Jekyll project with the name of the page you want to create (i.e. about.html).
+
+Creating a new blog post works slightly differently. If you want to create a blog post, create a file in the ```_posts``` folder that has a name following this structure:
+
+YYYY-MM-DD-post-title.md
+
+Once you create this file, your post will be available on your site.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/jamesgoca/no-cruft-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
