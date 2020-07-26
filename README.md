@@ -42,7 +42,7 @@ To create a new page, create a new file in the root directory of your Jekyll pro
 
 Creating a new blog post works slightly differently. If you want to create a blog post, create a file in the ```_posts``` folder that has a name following this structure:
 
-YYYY-MM-DD-post-title.md
+```YYYY-MM-DD-post-title.md```
 
 Once you create this file, your post will be available on your site.
 
